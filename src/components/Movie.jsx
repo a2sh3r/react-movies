@@ -14,9 +14,10 @@ export function Movie(props) {
                     <img
                         className='activator'
                         src={'https://placehold.co/400'}
+                        alt='None'
                     />
                 ) : (
-                    <img className='activator' src={poster} />
+                    <img className='activator' src={poster} alt='None' />
                 )}
             </div>
             <div className='card-content'>

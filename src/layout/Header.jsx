@@ -1,13 +1,12 @@
+
 function Header() {
     return (
         <nav className='deep-purple darken-4'>
             <div className='nav-wrapper'>
-                <a href='#' className='brand-logo right'>
-                    Logo
-                </a>
+                <img  src="#" className='brand-logo right' alt='React Films'/>
                 <ul id='nav-mobile' className='left hide-on-med-and-down'>
                     <li>
-                        <a href='#'>Repo</a>
+                        <a href='https://github.com/a2sh3r/react-movies'>Repo</a>
                     </li>
                 </ul>
             </div>
